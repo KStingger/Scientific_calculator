@@ -1,0 +1,83 @@
+.calculator {
+    max-width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    height: auto;
+    
+  }
+
+  /*Styling blackBtn section*/
+  .blackButton{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    height: auto;
+  }
+  .blackButton button:hover{
+    color:  aqua;
+  }
+
+  #offBtn, #onBtn{
+    background-color:  aqua;
+    border: none;
+    grid-column: span 3;
+    color: #000;
+  }
+
+  /*Styling WhiteBtn section*/
+  .witheBtn{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    height: auto;
+  }
+
+  .blackButton button{
+    background-color: #000;
+    color: #fff;
+  }
+  /* Set the style of our screen*/
+  .screen {
+    padding: 10px 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: right;
+    grid-column: span 4;
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: right;
+  }
+  
+  .screen-last {
+    min-height: 32px;
+    font-size: 20px;
+  }
+  
+  .screen-current {
+    min-height: 64px;
+    font-size: 40px;
+  }
+  
+  
+  button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #clearBtn, #deleteBtn{
+    background-color: rgb(255, 0, 0); 
+    color: #000; 
+    border: 2px solid rgb(255, 0, 0); 
+  }
